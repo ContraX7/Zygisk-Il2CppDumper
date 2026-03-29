@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
       inputs:
         package_name:
-          description: "Package name of the game:"
-          required: false
+          description: "Package name of the game:com.dts.freefireadv"
+          required: true
 
 jobs:
   build:
